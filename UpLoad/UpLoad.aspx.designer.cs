@@ -51,13 +51,13 @@ namespace UpLoad
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Controle TextBox1.
+        /// Controle txtNomeArq.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtNomeArq;
 
         /// <summary>
         /// Controle Label3.
@@ -69,12 +69,21 @@ namespace UpLoad
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Controle TextBox2.
+        /// Controle txtTamArq.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtTamArq;
+
+        /// <summary>
+        /// Controle Button1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }
