@@ -16,11 +16,13 @@
             <br />
             <asp:Label ID="Label2" runat="server" Text="Nome do arquivo"></asp:Label>
 &nbsp;&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNomeArq" runat="server"></asp:TextBox>
             <br />
             <asp:Label ID="Label3" runat="server" Text="Tamanho do arquivo"></asp:Label>
 &nbsp;&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtTamArq" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Enviar arquivo" Width="218px" />
         </div>
     </form>
 </body>
